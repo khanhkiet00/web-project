@@ -21,6 +21,22 @@
     cursor: pointer;
 }
 
-.margin-top_16 {
-    margin-top: 16px;
+.padding-top_16 {
+    padding-top: 16px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-size_17 {
+    font-size: 17px;
+}
+
+.font-size_14 {
+    font-size: 14px;
+}
+
+.font-size_16 {
+    font-size: 16px;
 }
