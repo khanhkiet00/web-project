@@ -3,7 +3,9 @@
 .header {
     background-image: linear-gradient(0, #fe6532 , #f53d2d);
     color: #fff;
-    height: 116px;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 .header .navigation {
@@ -102,7 +104,7 @@
 }
 
 .header .search .product-suggestion {
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .header .search .product-suggestion a {
@@ -133,7 +135,7 @@
 }
 
 .container {
-
+    padding-top: 145px;
 }
 
 .container.background {
@@ -242,14 +244,14 @@
 
 .shopee-mall .sm-content img{
     width: 390px;
-    height: 464px;
+    height: 100%;
 }
 
 .shopee-mall .sm-content .sm-catalogue {
     overflow-y: auto;
 }
 
-.shopee-mall .sm-content .sm-catalogue div {
+.shopee-mall .sm-content .sm-catalogue>div {
     display: flex;
 }
 
@@ -258,10 +260,12 @@
     width: 180px;
     height: 216px;
 }
-/* 
-.shopee-mall .sm-content .pd10 div {
-    display: block;
-} */
+
+.shopee-mall .sm-catalogue p {
+    font-size: 18px;
+    color: #d0011b;
+    text-align: center;
+}
 
 .footer {
 
