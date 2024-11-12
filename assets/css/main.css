@@ -274,6 +274,30 @@
     align-items: center;
 }
 
+.container .suggestion-today {
+    margin-top: 30px;
+}
+
+.container .suggestion-today .suggestion-title {
+    background-color: #fff;
+    height: 60px;
+    color: #ee4d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion-today .suggestion-title p {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.container .suggestion-today .hr-red {
+    height: 4px;
+    background-color: #ee4d2d;
+}
+
 .footer {
 
 }
