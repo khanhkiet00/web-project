@@ -137,6 +137,7 @@
 
 .container {
     padding-top: 145px;
+    margin-bottom: 60px;
 }
 
 .container.background {
@@ -283,6 +284,7 @@
     position: sticky;
     top: 120px;
     z-index: 1;
+    bottom: 60px;
 }
 
 .container .suggestion-today .suggestion-title {
@@ -311,10 +313,11 @@
 
 .container .suggestion-content .suggestion-line {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container .suggestion-content .suggestion-item {
-    width: 200px;
+    max-width: 190px;
     height: 308px;
     background-color: #ffffff;
     margin: 5px;
@@ -323,6 +326,7 @@
 
 .container .suggestion-content .suggestion-item:hover {
     transform: translateY(-2px);
+    border: 1px solid #ee4d2d;
 }
 
 .suggestion-content .suggestion-item .suggestion-item_title {
@@ -357,13 +361,58 @@
 }
 
 .container .suggestion-today .suggestion-item_content {
+    height: 115px;
     padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container .suggestion-today .suggestion-item_content_title {
     display: flex;
 }
 
-.footer {
+.suggestion-content .suggestion-item_content .Suggestion-today_title p {
+    font-size: 14px;
+}
 
+.suggestion-content .suggestion-item_content .prices {
+    display: flex;
+    color: rgb(239 94 58);
+    align-items: center;
+    
+}
+
+.suggestion-content .suggestion-item_content .unit {
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.suggestion-content .suggestion-item_content .price {
+    font-size: 16px;
+}
+
+.container .suggestion-today .suggestion-content .suggestion-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.suggestion-today .suggestion-content .suggestion-btn div {
+    width: 160px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion-today .suggestion-content .suggestion-btn div:hover {
+    background-color: rgb(240 240 240);
+}
+
+.footer {
 }
