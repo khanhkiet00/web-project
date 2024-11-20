@@ -137,11 +137,12 @@
 
 .container {
     padding-top: 145px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+    background-color: #f5f5f5;
 }
 
 .container.background {
-    background-color: #f5f5f5;
+    
 }
 
 .container .panner-section {
@@ -301,11 +302,6 @@
     font-weight: 500;
 }
 
-.container .suggestion-today .hr-red {
-    height: 4px;
-    background-color: #ee4d2d;
-}
-
 .container .suggestion-content {
     padding-top: 5px;
     background-color: #f5f5f5;
@@ -372,6 +368,11 @@
     display: flex;
 }
 
+.container .suggestion-today .Suggestion-today_title img {
+    width: 55px;
+    height: 14px;
+}
+
 .suggestion-content .suggestion-item_content .Suggestion-today_title p {
     font-size: 14px;
 }
@@ -415,4 +416,9 @@
 }
 
 .footer {
+
+}
+
+.footer>div {
+    padding-top: 60px;
 }
