@@ -422,3 +422,55 @@
 .footer>div {
     padding-top: 60px;
 }
+
+.footer b {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+}
+
+.footer span {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer span a {
+    font-weight: 600;
+    color: #000;    
+}
+
+.footer .Shoppe_Infor {
+    margin-top: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .Shoppe_Infor .Shoppe_Item {
+    width: 20%;
+    padding: 5px;
+}
+
+.footer .Black_hr {
+    border-top: 2px solid rgb(225 225 225);
+}
+
+.footer .Shoppe_Infor .Shoppe_Infor-Item {
+    list-style: none;
+}
+
+.footer .Shoppe_Infor .Shoppe_Infor-Item li {
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #000000a6;
+}
+
+.shoppe_location {
+    padding: 42px 0 37px 0;
+}
+
+.shoppe_location p {
+    margin-top: 8px;
+    color: #000000a6;
+}

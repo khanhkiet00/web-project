@@ -45,6 +45,10 @@
     text-transform: uppercase;
 }
 
+.font-size_12 {
+    font-size: 12px;
+}
+
 .font-size_17 {
     font-size: 17px;
 }
@@ -60,4 +64,18 @@
 .hr-red {
     height: 4px;
     background-color: #ee4d2d;
+}
+
+.text-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
 }
